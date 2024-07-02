@@ -6,6 +6,7 @@ Para fazer seu programa executável funcionar execute os comandos:
 pip install pyinstaller
 git clone https://github.com/Jetrom17/Squarecloud_app/
 cd Squarecloud_app
+pip install -r requirements.txt
 pyinstaller -F squarecloud.py
 ```
 
