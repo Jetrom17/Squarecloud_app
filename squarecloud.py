@@ -22,7 +22,9 @@ if __name__ == '__main__':
         'Squarecloud',
         'https://squarecloud.app',
         js_api=api,
-        confirm_close=True
+        confirm_close=True,
+        width=1280,
+        height=720
     )
 
     webview.start(api.read_cookies, window, user_agent='Chrome/51.0.2704.103', private_mode=False)
